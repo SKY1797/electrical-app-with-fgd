@@ -596,7 +596,7 @@ body::before {
 }
 
 .results-container {
-  height: 22rem;
+  height: 35rem;
   width: 100%;
   border-radius: var(--radius);
   border: 2px solid var(--border);
