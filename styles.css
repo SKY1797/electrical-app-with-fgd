@@ -389,7 +389,7 @@ body::before {
 
 .search-input {
   flex: 1;
-  padding: 1rem 1.25rem;
+  padding: 0.8rem 1.25rem;
   border: 2px solid transparent;
   border-radius: var(--radius);
   background: var(--input);
@@ -422,7 +422,7 @@ body::before {
   background: var(--primary2);
   color: var(--primary-foreground);
   border: none;
-  padding: 0.8rem 1.5rem;
+  padding: 0.55rem 1.2rem;
   border-radius: var(--radius);
   cursor: pointer;
   font-size: 0.9rem;
