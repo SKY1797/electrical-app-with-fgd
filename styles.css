@@ -793,7 +793,7 @@ body::before {
   }
 
   .results-container {
-    height: calc(100vh - 18.5rem);
+    height: calc(100vh - 18rem);
     min-height: 20rem;
   }
 
