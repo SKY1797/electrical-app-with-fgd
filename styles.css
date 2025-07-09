@@ -56,7 +56,7 @@ body {
   font-family: "Inter", sans-serif;
   background: var(--background);
   color: var(--foreground);
-  line-height: 1.6;
+  line-height: 1.2;
   margin: 0;
   padding: 0;
   position: relative;
@@ -96,7 +96,8 @@ body::before {
 .app-header {
   width: 100%;
   /* background: var(--background); */
-  padding: 0.75rem 1rem;
+  /* padding: 0.75rem 1rem; */
+  padding: 0.75rem 1rem 0rem 1rem;
   box-shadow: var(--shadow-medium);
   position: fixed;
   top: 0;
@@ -127,11 +128,18 @@ body::before {
 .header-title {
   font-size: 1.4rem;
   font-weight: bolder;
-  color: var(--foreground);
+  /* color: var(--foreground); */
+  color: #c6dce0;
   margin: 0;
   letter-spacing: 0.02em;
   text-align: center;
   line-height: 1.3;
+}
+
+.header-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  margin: 0.75rem 0 0 0;
 }
 
 /* Main container */
@@ -174,11 +182,12 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.1) 0%,
     rgba(255, 255, 255, 0.05) 100%
-  );
+  ); */
+  background: linear-gradient(300deg, rgb(37 46 56 / 60%) 0%, rgb(116 141 146 / 12%) 100%);
   pointer-events: none;
 }
 
@@ -191,7 +200,7 @@ body::before {
 
 .card-header {
   text-align: center;
-  padding: 1rem 2rem 0rem;
+  padding: 1.5rem 2rem 0rem;
   position: relative;
 }
 
@@ -215,7 +224,8 @@ body::before {
 }
 
 .card-content {
-  padding: 1rem 2rem 1rem;
+  /* padding: 1rem 2rem 1rem; */
+  padding: 1.5rem 2rem 0.5rem;
   position: relative;
 }
 
@@ -258,7 +268,7 @@ body::before {
   flex-direction: column;
   gap: 1.5rem;
   width: 100%;
-  max-width: 300px;
+  max-width: 260px;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
@@ -266,11 +276,12 @@ body::before {
 .unit-btn-large {
   background: var(--card);
   border: 2px solid var(--border);
-  color: var(--foreground);
+  /* color: var(--primary1); */
+  color: #b6ced3;
   padding: 0.75rem 1rem;
   border-radius: var(--radius);
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 600;
   transition: all 0.3s ease;
   position: relative;
@@ -651,7 +662,8 @@ body::before {
 }
 
 .footer-content {
-  padding: 1rem;
+  /* padding: 1rem; */
+  padding: 0rem 1rem 0.3rem 1rem;
   text-align: center;
   max-width: 400px;
   margin: 0 auto;
@@ -660,12 +672,14 @@ body::before {
 .footer-divider {
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--border), transparent);
-  margin: 0.5rem 0;
+  /* margin: 0.5rem 0; */
+  margin: 0.5rem 0rem 0.75rem 0rem;
 }
 
 .footer-developer {
   font-size: 0.875rem;
-  color: var(--primary1);                      /* color: var(--muted-foreground); */
+  color: #a1c5cc;;                      
+  /* color: var(--muted-foreground); */
   margin-bottom: 0.75rem;
   display: flex;
   align-items: center;
@@ -731,7 +745,8 @@ body::before {
 /* Enhanced responsive design */
 @media (max-width: 640px) {
   .main-container {
-    padding: 4.5rem 1rem 0;
+    /* padding: 4.5rem 1rem 0; */
+    padding: 6rem 1rem 0;
   }
 
   .main-container.no-header {
@@ -783,7 +798,8 @@ body::before {
   }
 
   .app-header {
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
+    padding: 1rem 1rem 0rem 1rem;
   }
 
   .header-content {
@@ -795,6 +811,6 @@ body::before {
   }
 
   .header-title {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
 }
