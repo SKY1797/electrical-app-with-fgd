@@ -750,12 +750,12 @@ body::before {
   }
 
   .main-container.no-header {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .card {
     margin: 0.5rem;
-    max-width: calc(100% - 1rem);
+    max-width: calc(100% - 2rem);   /* 1rem to 2rem */
     max-height: 80vh;
   }
 
