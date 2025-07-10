@@ -3,8 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Electrical Supply Application</title>
+
+    <!-- Remove line 10 - 20 if somting bad happens -->
+    
+    <!-- Favicon for browser tabs -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- iOS home screen icon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Android manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Theme color (for Android status bar color) -->
+    <meta name="theme-color" content="#4CAF50">
+    
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
@@ -12,6 +26,7 @@
     />
   </head>
   <body>
+    
     <header class="app-header">
       <div class="header-content">
         <img
@@ -23,6 +38,7 @@
       </div>
       <div class="header-divider"></div>
     </header>
+    
     <main class="main-container">
       <!-- Page 1: Unit Selection -->
       <div id="unitSelectionPage" class="page">
@@ -51,16 +67,19 @@
             </div>
           </div>
         </div>
+        
         <footer class="footer">
           <div class="footer-content">
             <div class="footer-divider"></div>
             <div class="footer-developer">Developed by Akash Kantaria</div>
           </div>
         </footer>
+        
       </div>
 
       <!-- Page 2: Search and Results -->
       <div id="searchPage" class="page hidden">
+        
         <div class="search-page-header">
           <button id="backBtn" class="back-button"><span>←</span> Back</button>
           <h2 id="selectedUnitTitle" class="selected-unit-title">
@@ -89,6 +108,7 @@
           <div id="searchStatus" class="search-status hidden"></div>
           <div id="searchResults" class="search-results hidden"></div>
         </div>
+        
       </div>
     </main>
 
