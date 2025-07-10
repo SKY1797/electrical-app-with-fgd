@@ -1,6 +1,6 @@
 
 {
-  "name": "Electrical Supply Check",
+  "name": "Electrical Supply Application",
   "short_name": "SupplyCheck",
   "start_url": "/index.html",
   "display": "standalone",
