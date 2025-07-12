@@ -8057,195 +8057,2614 @@ const unit2Data = [
 
 const fgdData = [
   [
-    "01HTA01AN001-M01",
+    "01HTA01AN001",
     "Booster Fan-1 Motor",
     "1SA",
-    "P6"
+    "P6 / 4230 (KW / KVA)"
   ],
   [
-    "01HTA02AN002-M01",
+    "01HTA02AN002",
     "Booster Fan-2 Motor",
     "1SB",
-    "P17"
+    "P17 / 4230 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11 kV FGD COMMON SWGR Incomer-1",
     "1SB",
-    "P20"
+    "P20 / 16000 (KW / KVA)"
   ],
   [
-    "02HTA01AN001-M01",
+    "02HTA01AN001",
     "Booster Fan - 3 Motor",
     "2SA",
-    "P6"
+    "P6 / 4230 (KW / KVA)"
   ],
   [
-    "02HTA02AN002-M01",
+    "02HTA02AN002",
     "Booster Fan - 4 Motor",
     "2SB",
-    "P17"
+    "P17 / 4230 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11 kV FGD COMMON SWGR Incomer-2",
     "2SB",
-    "P20"
+    "P20 / 16000 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11 kV FGD COMMON SWGR Incomer-1",
     "11kV SWGR ",
-    "1"
+    "1 / 16000 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11 kV FGD COMMON SWGR Incomer-2",
     "11kV SWGR ",
-    "21"
+    "21 / 16000 (KW / KVA)"
   ],
   [
     "01HTD21GH001",
     "MV VFD-Absorber 1 Recycle Pump - 1 Motor",
     "11kV SWGR ",
-    "8"
+    "8 / 1225 (KW / KVA)"
   ],
   [
     "02HTD21GH001",
     "MV VFD-Absorber 2 Recycle Pump - 1 Motor",
     "11kV SWGR ",
-    "15"
+    "15 / 1225 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/3.45kV Aux Trafo-7 (3.3kV Switchgear Incomer-1) HV SIDE",
     "11kV SWGR ",
-    "9"
+    "9 / 7500 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/3.45kV Aux Trafo-8 (3.3kV Switchgear Incomer-2) HV SIDE",
     "11kV SWGR ",
-    "13"
+    "13 / 7500 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV TRF # 1 MCC-1 Incomer-1 (HV SIDE)",
     "11kV SWGR ",
-    "4"
+    "4 / 1600 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV TRF # 2 MCC-1 Incomer (HV SIDE)",
     "11kV SWGR ",
-    "18"
+    "18 / 1600 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV TRF # 3 MCC-1 Incomer (HV SIDE)",
     "11kV SWGR ",
-    "5"
+    "5 / 1600 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV TRF # 4 MCC-2 Incomer (HV SIDE)",
     "11kV SWGR ",
-    "6"
+    "6 / 1600 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV TRF # 5 MCC-2 Incomer (HV SIDE)",
     "11kV SWGR ",
-    "14"
+    "14 / 1600 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV TRF # 6 MCC-2 Incomer (HV SIDE)",
     "11kV SWGR ",
-    "20"
+    "20 / 1600 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV ESP STANDBY TRF #1H Incomer (HV SIDE)",
     "11kV SWGR ",
-    "3"
+    "3 / 1600 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/0.433 kV ESP STANDBY TRF #2H Incomer (HV SIDE)",
     "11kV SWGR ",
-    "19"
+    "19 / 1600 (KW / KVA)"
   ],
   [
     "01HTD22AP001",
     "Absorber 1 Recycle Pump -2 Motor",
     "3.3kVSWGR",
-    "5"
+    "5 / 1455 (KW / KVA)"
   ],
   [
     "01HTD23AP001",
     "Absorber 1 Recycle Pump -3 Motor",
     "3.3kVSWGR",
-    "7"
+    "7 / 1455 (KW / KVA)"
   ],
   [
     "01HTG10AN001",
     "Absorber 1 Oxidation Blower 1 Motor",
     "3.3kVSWGR",
-    "2"
+    "2 / 500 (KW / KVA)"
   ],
   [
     "01HTG20AN001",
     "Absorber 1 Oxidation Blower 2 Motor",
     "3.3kVSWGR",
-    "3"
+    "3 / 500 (KW / KVA)"
   ],
   [
     "02HTD22AP001",
     "Absorber 2 Recycle Pump -2 Motor",
     "3.3kVSWGR",
-    "14"
+    "14 / 1455 (KW / KVA)"
   ],
   [
     "02HTD23AP001",
     "Absorber 2 Recycle Pump -3 Motor",
     "3.3kVSWGR",
-    "15"
+    "15 / 1455 (KW / KVA)"
   ],
   [
     "02HTG10AN001",
     "Absorber 2 Oxidation Blower 1 Motor",
     "3.3kVSWGR",
-    "13"
+    "13 / 500 (KW / KVA)"
   ],
   [
     "02HTG20AN001",
     "Absorber 2 Oxidation Blower 2 Motor",
     "3.3kVSWGR",
-    "20"
+    "20 / 500 (KW / KVA)"
   ],
   [
     "00HTK21AJ001",
     "Ball Mill 1 Main Motor",
     "3.3kVSWGR",
-    "4"
+    "4 / 860 (KW / KVA)"
   ],
   [
     "00HTK22AJ001",
     "Ball Mill 2 Main Motor",
     "3.3kVSWGR",
-    "17"
+    "17 / 860 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/3.45kV Aux Trafo-7(LV SIDE)",
     "3.3kV SWGR Common - Incomer 1",
-    "6"
+    "6 / 7500 (KW / KVA)"
   ],
   [
-    "Later",
+    "",
     "11/3.45kV Aux Trafo-8(LV SIDE)",
     "3.3kV SWGR Common - Incomer 2",
-    "19"
+    "19 / 7500 (KW / KVA)"
+  ],
+  [
+    "01HTD35AM001",
+    "Absorber 1 Reaction Tank Agitator 5 Motor",
+    "MCC1",
+    "3-R-B / 30 (KW / KVA)"
+  ],
+  [
+    "01HTD81AP001",
+    "Absorber 1  Area Sump Pump -1  Motor",
+    "MCC1",
+    "3-F-F / 30 (KW / KVA)"
+  ],
+  [
+    "01HTD82AP001",
+    "Absorber 1  Area Sump Pump - 2  Motor",
+    "MCC1",
+    "15-R-F / 30 (KW / KVA)"
+  ],
+  [
+    "01HTG10GH001",
+    "LCP- Absorber 1 Oxidation Blower 1 Lubricating System Load",
+    "MCC1",
+    "2-F-E / 7.5 (KW / KVA)"
+  ],
+  [
+    "01HTG20GH001",
+    "LCP- Absorber 1 Oxidation Blower 2 Lubricating System Load",
+    "MCC1",
+    "15-R-B / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB 1- Absorber 1 area",
+    "MCC1",
+    "2-R-C / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB 2- Absorber 1 area",
+    "MCC1",
+    "19-F-D / 15 (KW / KVA)"
+  ],
+  [
+    "01HTM10GH001",
+    "LCP for VFD - Absorber 1  Gypsum Bleed Pump 1  Motor",
+    "MCC1",
+    "19-R-G / 37 (KW / KVA)"
+  ],
+  [
+    "01HTM20GH001",
+    "LCP for VFD - Absorber 1  Gypsum Bleed Pump 2 Motor",
+    "MCC1",
+    "4-R-C / 37 (KW / KVA)"
+  ],
+  [
+    "01HTM40AP001",
+    "Absorber 1 Emergency Drain Pump Motor",
+    "MCC1",
+    "7-F-A / 75 (KW / KVA)"
+  ],
+  [
+    "00HTQ41AP001",
+    "Absorber 1 Mist Eliminator  Wash Pump 1   Motor",
+    "MCC1",
+    "19-R-A / 75 (KW / KVA)"
+  ],
+  [
+    "00HTQ42AP001",
+    "Absorber 1 Mist Eliminator  Wash Pump 2  Motor",
+    "MCC1",
+    "3-F-A / 75 (KW / KVA)"
+  ],
+  [
+    "01HNW03AN001",
+    "Common Inlet Damper Seal Air Fan 1 Motor for Booster Fan 1\n& 2",
+    "MCC1",
+    "2-F-G / 15 (KW / KVA)"
+  ],
+  [
+    "01HNW04AN001",
+    "Common Inlet Damper Seal Air Fan 2 Motor for Booster Fan 1\n& 2",
+    "MCC1",
+    "18-R-E / 15 (KW / KVA)"
+  ],
+  [
+    "01HNW05AN001",
+    "Common Outlet Damper Seal Air Fan 1 Motor for Booster Fan\n1 & 2",
+    "MCC1",
+    "3-F-D / 22 (KW / KVA)"
+  ],
+  [
+    "01HNW06AN001",
+    "Common Outlet Damper Seal Air Fan 2 Motor for Booster Fan\n1 & 2",
+    "MCC1",
+    "16-R-C / 22 (KW / KVA)"
+  ],
+  [
+    "01HNW01AN001",
+    "Common Seal Air Fan 1 Motor for Bypass Dampers",
+    "MCC1",
+    "4-R-H / 22 (KW / KVA)"
+  ],
+  [
+    "01HNW02AN001",
+    "Common Seal Air Fan 2 Motor for Bypass Dampers",
+    "MCC1",
+    "18-R-D / 22 (KW / KVA)"
+  ],
+  [
+    "",
+    "Booster Fan 1 (Impeller + Motor) Hoist 1",
+    "MCC1",
+    "2-F-H / 18.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Booster Fan 2 (Impeller + Motor) Hoist 2",
+    "MCC1",
+    "10-R-E / 18.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Oxidation Blower Unit 1 (Blower+Motor) Hoist",
+    "MCC1",
+    "10-R-C / 5.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Recycle pump + motor Hoist-1",
+    "MCC1",
+    "2-R-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Recycle pump + motor Hoist-2",
+    "MCC1",
+    "2-R-G / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Building Elevator M/C Room Hoist",
+    "MCC1",
+    "10-F-E / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Inlet Valve Hoist",
+    "MCC1",
+    "10-F-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Outlet Valve Hoist",
+    "MCC1",
+    "11-R-D / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Agitator Hoist 1",
+    "MCC1",
+    "7-R-E / 5.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Agitator Hoist 2",
+    "MCC1",
+    "15-F-C / 5.5 (KW / KVA)"
+  ],
+  [
+    "02HTD35AM001",
+    "Absorber 2 Reaction Tank Agitator 5 Motor",
+    "MCC1",
+    "15-F-E / 30 (KW / KVA)"
+  ],
+  [
+    "02HTD81AP001",
+    "Absorber 2  Area Sump Pump -1  Motor",
+    "MCC1",
+    "15-R-E / 30 (KW / KVA)"
+  ],
+  [
+    "02HTD82AP001",
+    "Absorber 2  Area Sump Pump - 2  Motor",
+    "MCC1",
+    "4-F-F / 30 (KW / KVA)"
+  ],
+  [
+    "02HTG10GH001",
+    "LCP- Absorber 2 Oxidation Blower 1 Lubricating System Load",
+    "MCC1",
+    "20-F-C / 7.5 (KW / KVA)"
+  ],
+  [
+    "02HTG20GH001",
+    "LCP- Absorber 2 Oxidation Blower 2 Lubricating System Load",
+    "MCC1",
+    "2-F-D / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB 3- Absorber 2 area",
+    "MCC1",
+    "20-F-F / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB 4- Oxidation Blower area",
+    "MCC1",
+    "7-R-C / 15 (KW / KVA)"
+  ],
+  [
+    "02HTM10GH001",
+    "LCP for VFD - Absorber 2 Gypsum Bleed Pump 1  Motor",
+    "MCC1",
+    "4-R-D / 37 (KW / KVA)"
+  ],
+  [
+    "02HTM20GH001",
+    "LCP for VFD - Absorber 2 Gypsum Bleed Pump 2 Motor",
+    "MCC1",
+    "16-F-C / 37 (KW / KVA)"
+  ],
+  [
+    "02HTM40AP001",
+    "Absorber 2 Emergency Drain Pump Motor",
+    "MCC1",
+    "17-F-A / 75 (KW / KVA)"
+  ],
+  [
+    "00HTQ46AP001",
+    "Absorber 2 Mist Eliminator  Wash Pump 1   Motor",
+    "MCC1",
+    "4-F-A / 55 (KW / KVA)"
+  ],
+  [
+    "00HTQ47AP001",
+    "Absorber 2 Mist Eliminator  Wash Pump 2  Motor",
+    "MCC1",
+    "16-F-A / 55 (KW / KVA)"
+  ],
+  [
+    "02HNW03AN001",
+    "Common Inlet Damper Seal Air Fan 1 Motor for Booster Fan 3\n& 4",
+    "MCC1",
+    "20-R-C / 15 (KW / KVA)"
+  ],
+  [
+    "02HNW04AN001",
+    "Common Inlet Damper Seal Air Fan 2 Motor for Booster Fan 3\n& 4",
+    "MCC1",
+    "8-F-F / 15 (KW / KVA)"
+  ],
+  [
+    "02HNW05AN001",
+    "Common Outlet Damper Seal Air Fan 1 Motor for Booster Fan\n3 & 4",
+    "MCC1",
+    "20-F-E / 22 (KW / KVA)"
+  ],
+  [
+    "02HNW06AN001",
+    "Common Outlet Damper Seal Air Fan 2 Motor for Booster Fan\n3 & 4",
+    "MCC1",
+    "4-F-D / 22 (KW / KVA)"
+  ],
+  [
+    "02HNW01AN001",
+    "Common Seal Air Fan 3 Motor for Bypass Dampers",
+    "MCC1",
+    "15-F-D / 22 (KW / KVA)"
+  ],
+  [
+    "02HNW02AN001",
+    "Common Seal Air Fan 4 Motor for Bypass Dampers",
+    "MCC1",
+    "11-F-B / 22 (KW / KVA)"
+  ],
+  [
+    "",
+    "Booster Fan 3 (Impeller + Motor) Hoist 1",
+    "MCC1",
+    "4-R-G / 18.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Booster Fan 4 (Impeller + Motor) Hoist 2",
+    "MCC1",
+    "7-R-D / 18.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Oxidation Blower Unit 2 (Blower+Motor) Hoist",
+    "MCC1",
+    "20-R-F / 5.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Recycle pump + Motor Hoist-1",
+    "MCC1",
+    "2-R-B / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Recycle pump + Motor Hoist-2",
+    "MCC1",
+    "3-R-I / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Building Elevator M/C Room Hoist",
+    "MCC1",
+    "18-F-C / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Inlet Valve Hoist",
+    "MCC1",
+    "19-R-B / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Outlet Valve Hoist",
+    "MCC1",
+    "18-R-B / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Agitator Hoist 1",
+    "MCC1",
+    "7-R-F / 5.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Agitator Hoist 2",
+    "MCC1",
+    "18-F-F / 5.5 (KW / KVA)"
+  ],
+  [
+    "00HTK41AP001",
+    "Limestone Slurry Feed Pump 1A Motor",
+    "MCC1",
+    "2-R-D / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK41AP002",
+    "Limestone Slurry Feed Pump 1B Motor",
+    "MCC1",
+    "8-R-E / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK42AP001",
+    "Limestone Slurry Feed Pump 1C Motor",
+    "MCC1",
+    "19-R-E / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK42AP002",
+    "Limestone Slurry Feed Pump 1D Motor",
+    "MCC1",
+    "20-R-H / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK44AP001",
+    "Limestone Slurry Feed Pump 2A Motor",
+    "MCC1",
+    "16-F-B / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK44AP002",
+    "Limestone Slurry Feed Pump 2B Motor",
+    "MCC1",
+    "16-F-D / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK45AP001",
+    "Limestone Slurry Feed Pump 2C Motor",
+    "MCC1",
+    "8-R-G / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK45AP002",
+    "Limestone Slurry Feed Pump 2D Motor",
+    "MCC1",
+    "8-R-F / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTN41AP001",
+    "Auxiliary Absorbent Return Pump-1 Motor",
+    "MCC1",
+    "2-R-A / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK17AM010",
+    "Auxiliary Absorbent Area Sump Agitator-1 Motor",
+    "MCC1",
+    "11-R-C / 2.2 (KW / KVA)"
+  ],
+  [
+    "00HTK18AP009",
+    "Auxiliary Absorbent Area Sump Pump-1 Motor",
+    "MCC1",
+    "17-R-C / 30 (KW / KVA)"
+  ],
+  [
+    "00HTK19AP011",
+    "Auxiliary Absorbent Area Sump Pump-2 Motor",
+    "MCC1",
+    "4-R-B / 30 (KW / KVA)"
+  ],
+  [
+    "00HTM40AM001",
+    "Primary HC Feed Tank Agitator Motor",
+    "MCC1",
+    "8-F-C / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM41GH001",
+    "LCP for VFD - Primary HC Feed Pump -1A Motor",
+    "MCC1",
+    "2-F-B / 55 (KW / KVA)"
+  ],
+  [
+    "00HTM41GH002",
+    "LCP for VFD - Primary HC Feed Pump -1B Motor",
+    "MCC1",
+    "10-R-D / 55 (KW / KVA)"
+  ],
+  [
+    "00HTM42GH001",
+    "LCP for VFD - Primary HC Feed Pump -2A Motor",
+    "MCC1",
+    "15-F-B / 55 (KW / KVA)"
+  ],
+  [
+    "00HTM42GH002",
+    "LCP for VFD - Primary HC Feed Pump -2B Motor",
+    "MCC1",
+    "16-F-E / 55 (KW / KVA)"
+  ],
+  [
+    "00PCM23AP001",
+    "Primary DMCW Pump - 1 Motor  (ECW SYSTEM)",
+    "MCC1",
+    "15-R-A / 37 (KW / KVA)"
+  ],
+  [
+    "00PCM24AP002",
+    "Primary DMCW Pump - 2 Motor  (ECW SYSTEM)",
+    "MCC1",
+    "8-F-G / 37 (KW / KVA)"
+  ],
+  [
+    "00PCM25AP001",
+    "Primary DMCW Pump - 3 Motor (ECW SYSTEM)",
+    "MCC1",
+    "16-R-A / 37 (KW / KVA)"
+  ],
+  [
+    "00PCM10AM001",
+    "NAOH Tank Agiatator Motor (ECW SYSTEM)",
+    "MCC1",
+    "4-F-E / 0.55 (KW / KVA)"
+  ],
+  [
+    "00HTQ11AP001",
+    "ACW Pump - 1 Motor  (ECW SYSTEM)",
+    "MCC1",
+    "18-F-B / 55 (KW / KVA)"
+  ],
+  [
+    "00HTQ12AP001",
+    "ACW Pump - 2 Motor  (ECW SYSTEM)",
+    "MCC1",
+    "8-F-B / 55 (KW / KVA)"
+  ],
+  [
+    "00HTQ13AP001",
+    "ACW Pump - 3 Motor (ECW SYSTEM)",
+    "MCC1",
+    "19-F-B / 55 (KW / KVA)"
+  ],
+  [
+    "00HTQ14AP001",
+    "ACW Pump - 4 Motor (ECW SYSTEM)",
+    "MCC1",
+    "10-R-B / 55 (KW / KVA)"
+  ],
+  [
+    "",
+    "Portable Water Pump-1 Motor (Pump 1A)",
+    "MCC1",
+    "10-R-F / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Portable Water Pump-2 Motor (Pump 1B) ",
+    "MCC1",
+    "10-R-G / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Portable Water Pump-3 Motor (Pump 2A)",
+    "MCC1",
+    "15-R-C / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Portable Water Pump-4 Motor (Pump 2B)",
+    "MCC1",
+    "18-R-C / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Self Cleaning Strainer 1 for ECW System",
+    "MCC1",
+    "20-R-B / 0.37 (KW / KVA)"
+  ],
+  [
+    "",
+    "Self Cleaning Strainer 2 for ECW System",
+    "MCC1",
+    "7-R-B / 0.37 (KW / KVA)"
+  ],
+  [
+    "",
+    "Limestone Slurry Storage Tank Hoist",
+    "MCC1",
+    "8-R-B / 5.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Auxiliary Absorber Tank Agitator Hoist",
+    "MCC1",
+    "19-R-D / 5.5 (KW / KVA)"
+  ],
+  [
+    "00BMA10GS001",
+    "Unit Emergency Board-1 Feeder 1",
+    "MCC1",
+    "6-F-A / 430 (KW / KVA)"
+  ],
+  [
+    "00BMA20GS001",
+    "Unit Emergency Board-2 Feeder 1",
+    "MCC1",
+    "13-F-A / 435 (KW / KVA)"
+  ],
+  [
+    "00SAB01AN001",
+    "UAF fan for Main Electrical Building",
+    "MCC1",
+    "17-R-B / 30 (KW / KVA)"
+  ],
+  [
+    "00SAB01AP001",
+    "UAF pump for Main Electrical Building",
+    "MCC1",
+    "11-R-H / 9.3 (KW / KVA)"
+  ],
+  [
+    "00SAB01AN002",
+    "Ventilation load (Absorber Area) - Feeder 1",
+    "MCC1",
+    "16-R-E / 2.2 (KW / KVA)"
+  ],
+  [
+    "00SAB01GH001",
+    "Local Control Panel for Fire Damper, MOV etc.",
+    "MCC1",
+    "3-R-C / 2 (KW / KVA)"
+  ],
+  [
+    "",
+    "Main Light Distribution Boards(MLDB ) Feeder 1",
+    "MCC1",
+    "8-R-A / 100 (KW / KVA)"
+  ],
+  [
+    "",
+    "Main Light Distribution Boards(MLDB ) Feeder 2",
+    "MCC1",
+    "15-F-A / 100 (KW / KVA)"
+  ],
+  [
+    "",
+    "UPS Incomer  Feeder -1 (Main)",
+    "MCC1",
+    "3-F-E / 50 (KW / KVA)"
+  ],
+  [
+    "",
+    "UPS Incomer  Feeder -2 (Bypass)",
+    "MCC1",
+    "19-R-C / 70 (KW / KVA)"
+  ],
+  [
+    "",
+    "Battery Charger (220V) Feeder 1",
+    "MCC1",
+    "19-F-C / 24 (KW / KVA)"
+  ],
+  [
+    "",
+    "Battery Charger (220V) Feeder 2",
+    "MCC1",
+    "3-R-G / 24 (KW / KVA)"
+  ],
+  [
+    "",
+    "24VDC Battery Charger FCBC-1A Feeder-1",
+    "MCC1",
+    "4-F-B / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "Non UPS Aux Supply (ACDB-1) Load",
+    "MCC1",
+    "7-F-B / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "Non UPS Aux Supply (ACDB-2) Load",
+    "MCC1",
+    "16-R-F / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "CEMS DB INCOMER SYSTEM-1",
+    "MCC1",
+    "2-F-C / 25 (KW / KVA)"
+  ],
+  [
+    "",
+    "CEMS DB INCOMER SYSTEM-2",
+    "MCC1",
+    "20-F-B / 25 (KW / KVA)"
+  ],
+  [
+    "",
+    "Aux Load for MV VFD-1 (415V for Trans. / Fan)",
+    "MCC1",
+    "3-R-J / 7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Aux Load for MV VFD-2 (415V for Trans. / Fan)",
+    "MCC1",
+    "17-F-C / 7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Aux Load for MV VFD-1 (240V for CC Fan / Space Heater)",
+    "MCC1",
+    "1-F-A / 0.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Aux Load for MV VFD-1 (240V for CC Fan / Space Heater)",
+    "MCC1",
+    "1-F-A / 0.5 (KW / KVA)"
+  ],
+  [
+    "00SAA01GH001-Q01",
+    "HVAC Panel Absorber Electrical Building Feeder 1",
+    "MCC1",
+    "20-F-A / 100 (KW / KVA)"
+  ],
+  [
+    "00SAA01GH001-Q02",
+    "HVAC Panel Absorber Electrical Building Feeder 2",
+    "MCC1",
+    "11-F-A / 100 (KW / KVA)"
+  ],
+  [
+    "",
+    "Fresh Air Fan",
+    "MCC1",
+    "19-F-G / 0.75 (KW / KVA)"
+  ],
+  [
+    "",
+    "Strip Heater",
+    "MCC1",
+    "8-F-E / 9 (KW / KVA)"
+  ],
+  [
+    "",
+    "Pan Humidifier",
+    "MCC1",
+    "4-R-F / 6 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB 5- Process Water Area",
+    "MCC1",
+    "3-R-D / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB 6- Process Water Area",
+    "MCC1",
+    "18-F-G / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB 7- Process Water Area",
+    "MCC1",
+    "3-R-H / 15 (KW / KVA)"
+  ],
+  [
+    "1FA",
+    "220V DCDB 240VAC SOURCE-1",
+    "MCC1",
+    "1-F-A(6A MCB)"
+  ],
+  [
+    "1FA",
+    "220V DCDB 240VAC SOURCE-2",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "7",
+    "11KV SWGR 240VAC SOURCE-1",
+    "MCC1",
+    "1-F-A(16A MCB)"
+  ],
+  [
+    "12",
+    "11KV SWGR 240VAC SOURCE-2",
+    "MCC1",
+    "21-F-A(16A MCB)"
+  ],
+  [
+    "8",
+    "3.3KV SWGR 240VAC SOURCE-1",
+    "MCC1",
+    "1-F-A(16A MCB)"
+  ],
+  [
+    "11",
+    "3.3KV SWGR 240VAC SOURCE-2",
+    "MCC1",
+    "21-F-A(16A MCB)"
+  ],
+  [
+    "",
+    "EMSWGR 240VAC SOURCE-2",
+    "MCC1",
+    "1-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "EMDB-1 240VAC SOURCE-1",
+    "MCC1",
+    "1-F-A(6A MCB) "
+  ],
+  [
+    "",
+    "EMDB-2 240VAC SOURCE-1",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Space heater for NSPBD MCC-1 Incomer-1",
+    "MCC1",
+    "1-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Space heater for NSPBD MCC-1 Incomer-2",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Space heater for NSPBD MCC-1 Incomer-3",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Space heater for SPBD 3.3KV SWGR Incomer-1",
+    "MCC1",
+    "1-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Space heater for SPBD 3.3KV SWGR Incomer-2",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Space heater for SANDWICH B/D for EMSWGR",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/3.45kV Aux Trafo-7 Power\nsupply feeding to 3.3kV Switchgear Incomer-1",
+    "MCC1",
+    "1-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/3.45kV Aux Trafo-8 Power\nsupply feeding to 3.3kV Switchgear Incomer-2",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/0.433 kV TRF # 1 MCC-1\nIncomer-1",
+    "MCC1",
+    "1-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/0.433 kV TRF # 2 MCC-1\nIncomer-2",
+    "MCC1",
+    "21-F-A(6A\nMCB)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/0.433 kV TRF # 3 MCC-1\nIncomer-3",
+    "MCC1",
+    "21-F-A(6A MCB)"
+  ],
+  [
+    "",
+    "ELSDB @ ECR-1",
+    "MCC1-240VAC BUS-A\n(EXTERNAL SOURCE)",
+    ""
+  ],
+  [
+    "",
+    "ELSDB @ ECR-1",
+    "MCC1-240VAC BUS-B\n(EXTERNAL SOURCE)",
+    ""
+  ],
+  [
+    "00BFA10GS001-Q01",
+    "MCC-1 Incomer -1 From transformer 1",
+    "MCC-1 ",
+    "1-F-B / - (KW / KVA)"
+  ],
+  [
+    "00BFA10GS001-Q02",
+    "MCC-1 Incomer -2  From common transformer",
+    "MCC-1",
+    "9-F-B / - (KW / KVA)"
+  ],
+  [
+    "00BFA10GS001-Q03",
+    "MCC-1 Incomer -3 From common transformer",
+    "MCC-1",
+    "14-F-B / - (KW / KVA)"
+  ],
+  [
+    "00BFA10GS001-Q04",
+    "MCC-1 Incomer -4  From Transformer 3",
+    "MCC-1",
+    "21-F-B / - (KW / KVA)"
+  ],
+  [
+    "00BMA30GS001-Q02",
+    "Unit Emergency Board-1 Feeder-2",
+    "EMSWGR",
+    "1-F-A / 430 (KW / KVA)"
+  ],
+  [
+    "00BMA30GS001-Q03",
+    "Unit Emergency Board-2 Feeder-2",
+    "EMSWGR",
+    "1-F-B / 435 (KW / KVA)"
+  ],
+  [
+    "00BMA30GS001-Q04",
+    "Unit Emergency Board-3 Feeder-2",
+    "EMSWGR",
+    "3-F-B / 90 (KW / KVA)"
+  ],
+  [
+    "00BMA30GS001-Q01",
+    "DG SET",
+    "EMSWGR",
+    "2-F-B / - (KW / KVA)"
+  ],
+  [
+    "01HTD31AM001",
+    "Absorber 1 Reaction Tank Agitator 1 Motor",
+    "EMDB1",
+    "6-F-B / 30 (KW / KVA)"
+  ],
+  [
+    "01HTD32AM001",
+    "Absorber 1 Reaction Tank Agitator 2 Motor",
+    "EMDB1",
+    "6-R-B / 30 (KW / KVA)"
+  ],
+  [
+    "01HTD33AM001",
+    "Absorber 1 Reaction Tank Agitator 3 Motor",
+    "EMDB1",
+    "6-R-I / 30 (KW / KVA)"
+  ],
+  [
+    "01HTD34AM001",
+    "Absorber 1 Reaction Tank Agitator 4 Motor",
+    "EMDB1",
+    "6-F-G / 30 (KW / KVA)"
+  ],
+  [
+    "01HTD80AM001",
+    "Absorber 1  Area Sump Agitator Motor",
+    "EMDB1",
+    "6-F-F / 2.2 (KW / KVA)"
+  ],
+  [
+    "00HTQ51AP001",
+    "Absorber 1 Process Water Pump 1  Motor",
+    "EMDB1",
+    "3-F-A / 110 (KW / KVA)"
+  ],
+  [
+    "00HTQ52AP001",
+    "Absorber 1 Process Water Pump 2  Motor",
+    "EMDB1",
+    "3-F-B / 110 (KW / KVA)"
+  ],
+  [
+    "01HTA01AA102",
+    "Actuator - Inlet Damper for Booster Fan 1",
+    "EMDB1",
+    "6-R-F / 6 (KW / KVA)"
+  ],
+  [
+    "01HTA02AA102",
+    "Actuator - Inlet Damper for Booster Fan 2",
+    "EMDB1",
+    "5-R-F / 6 (KW / KVA)"
+  ],
+  [
+    "01HTA01AA103",
+    "Actuator - Outlet Damper for Booster Fan 1",
+    "EMDB1",
+    "6-R-E / 6 (KW / KVA)"
+  ],
+  [
+    "01HTA02AA103",
+    "Actuator - Outlet Damper for Booster Fan 2",
+    "EMDB1",
+    "6-F-E / 6 (KW / KVA)"
+  ],
+  [
+    "01HTA01GH001",
+    "LCP for Booster Fan 1 (Hydraulic, Lubrication & Sealing Air System Load)",
+    "EMDB1",
+    "5-F-A / 30 (KW / KVA)"
+  ],
+  [
+    "01HTA02GH001",
+    "LCP for Booster Fan 2 (Hydraulic, Lubrication & Sealing Air System Load)",
+    "EMDB1",
+    "6-F-A / 30 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Elevator (passenger cum goods)",
+    "EMDB1",
+    "6-F-C / 20 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 1 Wet Stack Elevator",
+    "EMDB1",
+    "5-R-E / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "Emergency Light Distribution Boards (ELDB) Incomer",
+    "EMDB1",
+    "5-R-D / 50 (KW / KVA)"
+  ],
+  [
+    "",
+    "Battery Charger (220V) Incomer-2",
+    "EMDB1",
+    "6-R-G / 24 (KW / KVA)"
+  ],
+  [
+    "02HTD31AM001",
+    "Absorber 2 Reaction Tank Agitator 1 Motor",
+    "EMDB2",
+    "5-F-B / 30 (KW / KVA)"
+  ],
+  [
+    "02HTD32AM001",
+    "Absorber 2 Reaction Tank Agitator 2 Motor",
+    "EMDB2",
+    "5-R-F / 30 (KW / KVA)"
+  ],
+  [
+    "02HTD33AM001",
+    "Absorber 2 Reaction Tank Agitator 3 Motor",
+    "EMDB2",
+    "6-F-H / 30 (KW / KVA)"
+  ],
+  [
+    "02HTD34AM001",
+    "Absorber 2 Reaction Tank Agitator 4 Motor",
+    "EMDB2",
+    "6-R-B / 30 (KW / KVA)"
+  ],
+  [
+    "02HTD80AM001",
+    "Absorber 2  Area Sump Agitator Motor",
+    "EMDB2",
+    "7-F-B / 2.2 (KW / KVA)"
+  ],
+  [
+    "00HTQ57AP001",
+    "Absorber 2  Process Water Pump 3  Motor",
+    "EMDB2",
+    "3-F-A / 110 (KW / KVA)"
+  ],
+  [
+    "00HTQ58AP001",
+    "Absorber 2  Process Water Pump 4  Motor",
+    "EMDB2",
+    "3-F-B / 110 (KW / KVA)"
+  ],
+  [
+    "02HTA01AA102",
+    "Actuator - Inlet Damper for Booster Fan 2A",
+    "EMDB2",
+    "7-R-C / 6 (KW / KVA)"
+  ],
+  [
+    "02HTA02AA103",
+    "Actuator - outlet Damper for Booster Fan 2B",
+    "EMDB2",
+    "7-R-B / 6 (KW / KVA)"
+  ],
+  [
+    "02HTA01AA103",
+    "Actuator - Outlet Damper for Booster Fan 2A",
+    "EMDB2",
+    "5-R-B / 6 (KW / KVA)"
+  ],
+  [
+    "02HTA02AA102",
+    "Actuator - Inlet Damper for Booster Fan 2B",
+    "EMDB2",
+    "5-R-C / 6 (KW / KVA)"
+  ],
+  [
+    "02HTA01GH001",
+    "LCP for Booster Fan 3 (Hydraulic, Lubrication & Sealing Air System Load)",
+    "EMDB2",
+    "6-F-B / 30 (KW / KVA)"
+  ],
+  [
+    "02HTA02GH001",
+    "LCP for Booster Fan 4 (Hydraulic, Lubrication & Sealing Air System Load)",
+    "EMDB2",
+    "7-F-A / 30 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Elevator (passenger cum goods)",
+    "EMDB2",
+    "6-F-G / 20 (KW / KVA)"
+  ],
+  [
+    "",
+    "Absorber 2 Wet Stack Elevator",
+    "EMDB2",
+    "6-R-F / 15 (KW / KVA)"
+  ],
+  [
+    "00HTK40AM001",
+    "Limestone Slurry Tank - 1 Agitator Motor",
+    "EMDB2",
+    "6-R-C / 30 (KW / KVA)"
+  ],
+  [
+    "00HTK40AM002",
+    "Limestone Slurry Tank - 2 Agitator Motor",
+    "EMDB2",
+    "7-R-D / 30 (KW / KVA)"
+  ],
+  [
+    "00HTN40AM001",
+    "Auxiliary Absorbent Tank Agitator 1 Motor",
+    "EMDB2",
+    "7-F-E / 30 (KW / KVA)"
+  ],
+  [
+    "00HTN40AM002",
+    "Auxiliary Absorbent Tank Agitator 2 Motor",
+    "EMDB2",
+    "6-R-E / 30 (KW / KVA)"
+  ],
+  [
+    "00HTN40AM003",
+    "Auxiliary Absorbent Tank Agitator 3 Motor",
+    "EMDB2",
+    "7-F-F / 30 (KW / KVA)"
+  ],
+  [
+    "00HTN40AM004",
+    "Auxiliary Absorbent Tank Agitator 4 Motor",
+    "EMDB2",
+    "7-R-E / 30 (KW / KVA)"
+  ],
+  [
+    "",
+    "Battery Charger (220V) Incomer-4",
+    "EMDB2",
+    "5-F-D / 24 (KW / KVA)"
+  ],
+  [
+    "",
+    "24VDC Battery Charger FCBC-1A Feeder-2",
+    "EMDB2",
+    "6-F-C / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "DG Panel Aux supply",
+    "EMDB2",
+    "5-F-C / 20 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB-8 Ball Mill Building",
+    "MCC2",
+    "11-F-E / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "MVPDB-9 Ball Mill Building",
+    "MCC2",
+    "27-F-D / 15 (KW / KVA)"
+  ],
+  [
+    "00HTK11GH003",
+    "LCP for VFD - Limestone Weigh Belt Feeder 1 Motor",
+    "MCC2",
+    "25-F-I / 3 (KW / KVA)"
+  ],
+  [
+    "00HTK12GH003",
+    "LCP for VFD - Limestone Weigh Belt Feeder 2 Motor",
+    "MCC2",
+    "12-F-H / 3 (KW / KVA)"
+  ],
+  [
+    "00HTK31GH001",
+    "LCP for VFD - Mill Circuit Recycle Pump 1 Motor",
+    "MCC2",
+    "15-F-C / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK32GH001",
+    "LCP for VFD - Mill Circuit Recycle Pump 2 Motor",
+    "MCC2",
+    "6-R-I / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK51GH001",
+    "LCP for VFD - Mill Circuit Recycle Pump 1 Motor",
+    "MCC2",
+    "4-R-H / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK52GH001",
+    "LCP for VFD - Mill Circuit Recycle Pump 2 Motor",
+    "MCC2",
+    "25-F-J / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK36AP001",
+    "Limestone Slurry Transfer Pump 1 Motor",
+    "MCC2",
+    "27-R-A / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK37AP001",
+    "Limestone Slurry Transfer Pump 2 Motor",
+    "MCC2",
+    "4-R-B / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK36AP002",
+    "Limestone Slurry Transfer Pump 3 Motor",
+    "MCC2",
+    "8-R-A / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK37AP002",
+    "Limestone Slurry Transfer Pump 4 Motor",
+    "MCC2",
+    "23-F-G / 37 (KW / KVA)"
+  ],
+  [
+    "00HTK17AM001",
+    "Limestone Grinding Area Sump Agitator Motor",
+    "MCC2",
+    "23-F-F / 1.5 (KW / KVA)"
+  ],
+  [
+    "00HTK18AP001",
+    "Limestone Grinding Area Sump Pump-1 Motor",
+    "MCC2",
+    "27-F-I / 22 (KW / KVA)"
+  ],
+  [
+    "00HTK19AP001",
+    "Limestone Grinding Area Sump Pump-2 Motor",
+    "MCC2",
+    "4-F-F / 22 (KW / KVA)"
+  ],
+  [
+    "00HTK21AJ001",
+    "Wet Ball Mill 1, Auxiliary Motor (Inching Drive)",
+    "MCC2",
+    "7-R-I / 15 (KW / KVA)"
+  ],
+  [
+    "00HTK22AJ001",
+    "Wet Ball Mill 2, Auxiliary Motor (Inching Drive)",
+    "MCC2",
+    "20-R-B / 15 (KW / KVA)"
+  ],
+  [
+    "00HTK21AJ001",
+    "Aux. Motor Thrust Brake for Wet Ball Mill  1",
+    "MCC2",
+    "11-F-C / 0.15 (KW / KVA)"
+  ],
+  [
+    "00HTK22AJ001",
+    "Aux. Motor Thrust Brake for Wet Ball Mill  2",
+    "MCC2",
+    "25-R-J / 0.15 (KW / KVA)"
+  ],
+  [
+    "00HTQ80AP001",
+    "Seal Water Booster Pump 1A Motor",
+    "MCC2",
+    "27-F-E / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTQ80AP003",
+    "Seal Water Booster Pump 1B Motor",
+    "MCC2",
+    "6-F-G / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTQ80AP002",
+    "Seal Water Booster Pump 2A Motor",
+    "MCC2",
+    "15-F-G / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTQ80AP004",
+    "Seal Water Booster Pump 2B Motor",
+    "MCC2",
+    "7-R-B / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM70AM001",
+    "Secondary HC Feed Tank Agitator Motor",
+    "MCC2",
+    "23-R-G / 2.2 (KW / KVA)"
+  ],
+  [
+    "00HTM71AP001",
+    "Secondary HC Feed Pump -1 Motor",
+    "MCC2",
+    "27-R-B / 11 (KW / KVA)"
+  ],
+  [
+    "00HTM72AP001",
+    "Secondary HC Feed Pump -2 Motor",
+    "MCC2",
+    "7-R-D / 11 (KW / KVA)"
+  ],
+  [
+    "00HTM81AP001",
+    "Waste Water Pump 1A Motor",
+    "MCC2",
+    "25-R-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM81AP002",
+    "Waste Water Pump 1B Motor",
+    "MCC2",
+    "10-F-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM81AP003",
+    "Waste Water Pump 1C Motor",
+    "MCC2",
+    "25-F-H / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM82AP001",
+    "Waste Water Pump 2A Motor",
+    "MCC2",
+    "4-R-E / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM82AP002",
+    "Waste Water Pump 2B Motor",
+    "MCC2",
+    "22-F-C / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM82AP003",
+    "Waste Water Pump 2C Motor",
+    "MCC2",
+    "7-F-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM80AM001",
+    "Waste Water Tank Agitator Motor",
+    "MCC2",
+    "12-F-D / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM51GH001",
+    "LCP for VFD - Vacuum Belt  Filter 1 Motor",
+    "MCC2",
+    "27-F-G / 11 (KW / KVA)"
+  ],
+  [
+    "00HTM52GH001",
+    "LCP for VFD - Vacuum Belt  Filter 2 Motor",
+    "MCC2",
+    "10-F-B / 11 (KW / KVA)"
+  ],
+  [
+    "00HTM51AP001",
+    "Vacuum  Pump-1 Motor",
+    "MCC2",
+    "18-F-B / 185 (KW / KVA)"
+  ],
+  [
+    "00HTM52AP001",
+    "Vacuum  Pump-2 Motor",
+    "MCC2",
+    "1-F-B / 185 (KW / KVA)"
+  ],
+  [
+    "00HTM61GH001",
+    "LCP for VFD - Filtrate Water Pump 1A Motor",
+    "MCC2",
+    "26-F-B / 45 (KW / KVA)"
+  ],
+  [
+    "00HTM61GH002",
+    "LCP for VFD - Filtrate Water Pump 1B Motor",
+    "MCC2",
+    "11-F-G / 45 (KW / KVA)"
+  ],
+  [
+    "00HTM62GH001",
+    "LCP for VFD - Filtrate Water Pump 2A Motor",
+    "MCC2",
+    "26-F-G / 45 (KW / KVA)"
+  ],
+  [
+    "00HTM62GH002",
+    "LCP for VFD - Filtrate Water Pump 2B Motor",
+    "MCC2",
+    "10-F-H / 45 (KW / KVA)"
+  ],
+  [
+    "00HTM60AM001",
+    "Filtrate  Water Tank Agitator Motor",
+    "MCC2",
+    "15-R-B / 11 (KW / KVA)"
+  ],
+  [
+    "00HTM51AP002",
+    "Vacuum Receiver Filtrate Pump 1 Motor",
+    "MCC2",
+    "12-F-E / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM52AP002",
+    "Vacuum Receiver Filtrate Pump 2 Motor",
+    "MCC2",
+    "23-R-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTN80AM001",
+    "Dewatering Area Sump Agitator Motor",
+    "MCC2",
+    "10-F-G / 1.5 (KW / KVA)"
+  ],
+  [
+    "00HTN81AP001",
+    "Dewatering Area Sump Pump-1 Motor",
+    "MCC2",
+    "15-F-H / 30 (KW / KVA)"
+  ],
+  [
+    "00HTN82AP001",
+    "Dewatering Area Sump Pump-2 Motor",
+    "MCC2",
+    "8-F-B / 30 (KW / KVA)"
+  ],
+  [
+    "00HTQ92AP001",
+    "Cake Wash pump motor-1",
+    "MCC2",
+    "8-F-D / 3.7 (KW / KVA)"
+  ],
+  [
+    "00HTQ93AP001",
+    "Cake Wash pump motor-2",
+    "MCC2",
+    "27-R-G / 3.7 (KW / KVA)"
+  ],
+  [
+    "00HTQ96AP001",
+    "Cake Wash pump motor-3",
+    "MCC2",
+    "6-R-D / 3.7 (KW / KVA)"
+  ],
+  [
+    "00HTQ97AP001",
+    "Cake Wash pump motor-4",
+    "MCC2",
+    "26-R-E / 3.7 (KW / KVA)"
+  ],
+  [
+    "00HTQ78AP001",
+    "Belt & Cloth Wash Pump 1 Motor",
+    "MCC2",
+    "15-R-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTQ78AP002",
+    "Belt & Cloth Wash Pump 2 Motor",
+    "MCC2",
+    "6-F-E / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTQ67AP001",
+    "Belt & Cloth Wash Pump 3 Motor",
+    "MCC2",
+    "15-R-G / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTQ67AP002",
+    "Belt & Cloth Wash Pump 4 Motor",
+    "MCC2",
+    "7-R-H / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTM90AN101",
+    "Lime Storage Silo  Vent Filter fan - 1 Motor",
+    "MCC2",
+    "19-R-D / 5.5 (KW / KVA)"
+  ],
+  [
+    "00HTM91AN101",
+    "Lime Storage Silo  Vent Filter fan - 2 Motor",
+    "MCC2",
+    "4-R-G / 5.5 (KW / KVA)"
+  ],
+  [
+    "00HTM90AA101",
+    "Motorized Diverter Valve",
+    "MCC2",
+    "25-R-C / 0.37 (KW / KVA)"
+  ],
+  [
+    "00HTM90AM001",
+    "Lime Neutralization Tank Agitator Motor -1",
+    "MCC2",
+    "11-R-G / 1.5 (KW / KVA)"
+  ],
+  [
+    "00HTM91AM001",
+    "Lime Neutralization Tank Agitator Motor -2",
+    "MCC2",
+    "23-F-E / 1.5 (KW / KVA)"
+  ],
+  [
+    "00HTM90GH001",
+    "LCP for VFD - Lime Neutralization tank rotary Feeder\nMotor -1",
+    "MCC2",
+    "23-R-E / 2.2 (KW / KVA)"
+  ],
+  [
+    "00HTM91GH001",
+    "LCP for VFD - Lime Neutralization tank rotary Feeder\nMotor -2",
+    "MCC2",
+    "8-R-B / 2.2 (KW / KVA)"
+  ],
+  [
+    "00HTJ90AF101",
+    "Bucket Elevator for Lime Neutralization  Motor",
+    "MCC2",
+    "15-R-D / 3.7 (KW / KVA)"
+  ],
+  [
+    "00QFB11AN001",
+    "Compressor 1 Motor",
+    "MCC2",
+    "1-F-A / 160 (KW / KVA)"
+  ],
+  [
+    "00QFB12AN001",
+    "Compressor 2 Motor",
+    "MCC2",
+    "18-F-A / 160 (KW / KVA)"
+  ],
+  [
+    "00QFB11AT001",
+    "Dryer-1 Feeder",
+    "MCC2",
+    "26-R-D / 10 (KW / KVA)"
+  ],
+  [
+    "00QFB12AT001",
+    "Dryer-2 Feeder",
+    "MCC2",
+    "10-R-G / 10 (KW / KVA)"
+  ],
+  [
+    "00QFB11AN001-Q01",
+    "Compressor 1 Aux Load",
+    "MCC2",
+    "6-R-H / 2 (KW / KVA)"
+  ],
+  [
+    "00QFB12AN001-Q01",
+    "Compressor 2 Aux Load",
+    "MCC2",
+    "19-R-H / 2 (KW / KVA)"
+  ],
+  [
+    "",
+    "Vacuum Belt Filter (De-watering) hoist 1",
+    "MCC2",
+    "27-F-H / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Ball Mill Building Elevator M/C Room Hoist",
+    "MCC2",
+    "6-R-F / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Ball Mill Hoist-1",
+    "MCC2",
+    "12-F-C / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Ball Mill Hoist-2",
+    "MCC2",
+    "27-R-D / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Electrical Hoist for Compressor",
+    "MCC2",
+    "22-R-G / 3.7 (KW / KVA)"
+  ],
+  [
+    "00BMA20GS001-Q05",
+    "Unit Emergency Board-3 Incomer-1",
+    "MCC2",
+    "12-R-A / 90 (KW / KVA)"
+  ],
+  [
+    "00SAC01AC001",
+    "DUCTABLE SPLIT AC-1  in Electrical Building near MHS\narea",
+    "MCC2",
+    "11-R-F / 14 (KW / KVA)"
+  ],
+  [
+    "00SAC01AC002",
+    "DUCTABLE SPLIT AC-2  in Electrical Building near MHS\narea",
+    "MCC2",
+    "27-R-I / 14 (KW / KVA)"
+  ],
+  [
+    "00SAB02AN051",
+    "Ventilation Fan (Cable Cellar GF MHS Area)-feeder 1",
+    "MCC2",
+    "8-R-C / 11 (KW / KVA)"
+  ],
+  [
+    "00SAB02AN055",
+    "Ventilation Fan (SWGR Room 1F MHS Area)-feeder 2",
+    "MCC2",
+    "27-R-I / 18.5 (KW / KVA)"
+  ],
+  [
+    "00SAB02AN001",
+    "Ventilation Fan (Battery Room 1F MHS Area)-feeder 3",
+    "MCC2",
+    "8-F-C / 1.1 (KW / KVA)"
+  ],
+  [
+    "00SAB03AN051",
+    "Ventilation Fan (Compressor Room GF)-feeder 4",
+    "MCC2",
+    "27-R-C / 7.5 (KW / KVA)"
+  ],
+  [
+    "00SAB04AN051",
+    "Ventilation Fan (DW BLDG 16.25M)-feeder 5",
+    "MCC2",
+    "7-R-E / 15 (KW / KVA)"
+  ],
+  [
+    "00SAB04AN001",
+    "Ventilation Fan (DW BLDG 16.25M)-feeder 6",
+    "MCC2",
+    "25-R-H / 5.5 (KW / KVA)"
+  ],
+  [
+    "00SAB04AN057",
+    "Ventilation Fan (DW BLDG 24.25M)-feeder 7",
+    "MCC2",
+    "25-R-B / 3.7 (KW / KVA)"
+  ],
+  [
+    "00SAB04AN009",
+    "Ventilation fan (Lime Storage Room GF)-feeder 8",
+    "MCC2",
+    "10-F-C / 3.7 (KW / KVA)"
+  ],
+  [
+    "00SAB04AN059",
+    "Ventilation Fan (BM BLDG 31.0M)-feeder 9",
+    "MCC2",
+    "19-F-E / 3.7 (KW / KVA)"
+  ],
+  [
+    "00SAB04AN060",
+    "Ventilation Fan (BM BLDG GF)-feeder 10",
+    "MCC2",
+    "22-R-C / 15 (KW / KVA)"
+  ],
+  [
+    "00SAB04AN010",
+    "Ventilation Fan (BM BLDG GF)-feeder 11",
+    "MCC2",
+    "7-R-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "00SAB05AN001",
+    "Ventilation Fan (GYSUM STORAGE SHED)-feeder 12",
+    "MCC2",
+    "15-R-H / 15 (KW / KVA)"
+  ],
+  [
+    "00SAB05AN009",
+    "Ventilation Fan (GYSUM STORAGE SHED TRIPPER\nFLOOR)-feeder 13",
+    "MCC2",
+    "15-F-D / 11 (KW / KVA)"
+  ],
+  [
+    "",
+    "Main Light Distribution Boards(MLDB-2 ) Incomer-1",
+    "MCC2",
+    "25-R-A / 50 (KW / KVA)"
+  ],
+  [
+    "",
+    "Main Light Distribution Boards(MLDB-2 ) Incomer-2",
+    "MCC2",
+    "6-F-D / 50 (KW / KVA)"
+  ],
+  [
+    "",
+    "Welding DB (MHS area Electrical Building)",
+    "MCC2",
+    "11-R-A / 50 (KW / KVA)"
+  ],
+  [
+    "",
+    "24VDC Battery Charger FCBC-2A Feeder-3",
+    "MCC2",
+    "23-R-B / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "Non UPS Aux Supply (ACDB-3) Load (DW building)",
+    "MCC2",
+    "19-R-G / 15 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AJ001",
+    "Primary Crusher (CR1 ) Motor",
+    "MCC2",
+    "3-F-A / 160 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AJ002",
+    "Primary Crusher (CR2) Motor",
+    "MCC2",
+    "14-F-A / 160 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AF001",
+    "Belt Conveyor - LC- 1A Motor (Crusher House Top)",
+    "MCC2",
+    "4-F-B / 30 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AF002",
+    "Belt Conveyor - LC- 1B Motor (Crusher House Top)",
+    "MCC2",
+    "22-R-B / 30 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AF003",
+    "Belt Conveyor - LC- 2A Motor (Crusher House Bottom)",
+    "MCC2",
+    "25-R-I / 15 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AF004",
+    "Belt Conveyor - LC- 2B Motor (Crusher House Bottom)",
+    "MCC2",
+    "4-F-H / 15 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF001",
+    "Belt Conveyor - LC- 3A Motor (Limestone Storage Silo\nTop)",
+    "MCC2",
+    "27-R-E / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF002",
+    "Belt Conveyor - LC- 3B Motor (Limestone Storage Silo\nTop)",
+    "MCC2",
+    "4-R-I / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF003",
+    "Belt Conveyor - LC- 4A Motor (Limestone Storage Silo\nBottom)",
+    "MCC2",
+    "15-F-B / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF004",
+    "Belt Conveyor - LC- 4B Motor (Limestone Storage Silo\nBottom)",
+    "MCC2",
+    "12-F-I / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AF001",
+    "Reversible Belt Conveyor - LC- 5A Motor  (Limestone\nDay Silo Top)",
+    "MCC2",
+    "19-F-F / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AF002",
+    "Reversible Belt Conveyor - LC- 5B Motor  (Limestone\nDay Silo Top)",
+    "MCC2",
+    "11-R-B / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF005",
+    "Bucket Elevator, BE-1A Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "26-F-A / 55 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF005",
+    "Inching Drive for BE-1A Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "15-R-C / 5.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF006",
+    "Bucket Elevator, BE-1B Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "10-R-A / 55 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AF006",
+    "Inching Drive for BE-1B Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "7-F-D / 5.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AF003",
+    "Bucket Elevator, BE-2A Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "11-F-A / 55 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AF003",
+    "Space Heater for Bucket Elevator, BE-2A Motor (Lime\nStorage Silo Top)",
+    "MCC2",
+    "11-F-A / 0.05 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AF003",
+    "Inching Drive for BE-2A Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "7-F-E / 5.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AF004",
+    "Bucket Elevator, BE-2B Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "26-R-B / 55 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AF004",
+    "Inching Drive for BE-2B Motor (Lime Storage Silo Top)",
+    "MCC2",
+    "19-F-C / 5.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ60AF001-M01",
+    "Box Feeder (BRU-1) Motor",
+    "MCC2",
+    "22-R-H / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ60AF001-M02",
+    "Box Feeder (BRU-2) Motor",
+    "MCC2",
+    "7-R-K / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AB103",
+    "Vibrating Grizzly Feeder (VGF - 1) (Crusher House\nMiddle)",
+    "MCC2",
+    "12-R-F / 11 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AB104",
+    "Vibrating Grizzly Feeder (VGF - 2)",
+    "MCC2",
+    "15-F-E / 11 (KW / KVA)"
+  ],
+  [
+    "00HTJ60TT001",
+    "Truck Tippler Load 1 (TT-1)",
+    "MCC2",
+    "19-R-J / 22 (KW / KVA)"
+  ],
+  [
+    "00HTJ60TT002",
+    "Truck Tippler Load 2 (TT-2)",
+    "MCC2",
+    "8-R-F / 22 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AW001",
+    "Metal Detector (MD-1) (at LC-1A)",
+    "MCC2",
+    "22-F-B / 0.55 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AW002",
+    "Metal Detector (MD-2) (at LC-1B)",
+    "MCC2",
+    "4-R-C / 0.55 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AW005",
+    "Metal Detector (MD-3) (at LC-2A)",
+    "MCC2",
+    "7-F-I / 0.55 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AW006",
+    "Metal Detector (MD-4) (at LC-2B)",
+    "MCC2",
+    "26-R-H / 0.55 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AW003",
+    "In Line Magnetic Separator (ILMS- 1 LCP ) (Crusher\nHouse Top)",
+    "MCC2",
+    "4-R-F / 21.6 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AW004",
+    "In Line Magnetic Separator (ILMS- 2 LCP ) (Crusher\nHouse Top)",
+    "MCC2",
+    "19-R-B / 21.6 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AB101",
+    "RPG-1 (Crusher House)",
+    "MCC2",
+    "4-F-C / 0.4 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AB102",
+    "RPG-2 (Crusher House)",
+    "MCC2",
+    "19-R-I / 0.4 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AB101",
+    "RPG-3 (below LS storage silo)",
+    "MCC2",
+    "25-F-E / 0.4 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AB102",
+    "RPG-4 (below LS storage silo)",
+    "MCC2",
+    "7-F-G / 0.4 (KW / KVA)"
+  ],
+  [
+    "",
+    "Limestone Sampling Unit (LSU-1) Load",
+    "MCC2",
+    "20-R-A / 62 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AM101",
+    "Vibrating Feeder (VF-1A) (Below Limestone storage\nSilo)",
+    "MCC2",
+    "6-F-H / 3 (KW / KVA)"
+  ],
+  [
+    "",
+    "Vibrating Feeder (VF-1B) (Below Limestone storage\nSilo)",
+    "MCC2",
+    " / 3 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AM102",
+    "Vibrating Feeder (VF-2A) (Below Limestone storage\nSilo)",
+    "MCC2",
+    "22-F-G / 3 (KW / KVA)"
+  ],
+  [
+    "",
+    "Vibrating Feeder (VF-2B) (Below Limestone storage\nSilo)",
+    "MCC2",
+    " / 3 (KW / KVA)"
+  ],
+  [
+    "00HTJ60AN101",
+    "DE Fan Motor (DE-1A) (at TP-1)",
+    "MCC2",
+    "6-F-C / 22 (KW / KVA)"
+  ],
+  [
+    "00HTJ60AB201",
+    "Rotary Airlock Valve (RAV-1A) Feeder (at TP-1)",
+    "MCC2",
+    "12-R-C / 0.75 (KW / KVA)"
+  ],
+  [
+    "00HTJ60AN102",
+    "DE Fan Motor (DE-1B) (at TP-1)",
+    "MCC2",
+    "25-F-C / 22 (KW / KVA)"
+  ],
+  [
+    "00HTJ60AB202",
+    "Rotary Airlock Valve (RAV-1B) Feeder (at TP-1)",
+    "MCC2",
+    "22-F-E / 0.75 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AN101",
+    "DE Fan Motor (DE-2A) (Near Crusher House)",
+    "MCC2",
+    "7-F-B / 30 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AB201",
+    "Rotary Airlock Valve (RAV-2A) Feeder  (Near Crusher\nHouse)",
+    "MCC2",
+    "4-R-D / 0.75 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AN102",
+    "DE Fan Motor (DE-2B) (Near Crusher House)",
+    "MCC2",
+    "20-F-B / 30 (KW / KVA)"
+  ],
+  [
+    "00HTJ61AB202",
+    "Rotary Airlock Valve (RAV-2B) Feeder (Near Crusher\nHouse)",
+    "MCC2",
+    "27-F-C / 0.75 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AN101",
+    "DE Fan Motor (DE-3A) (near Limestone Storage Silo)",
+    "MCC2",
+    "19-F-A / 75 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AB201",
+    "Rotary Airlock Valve (RAV-3A) Feeder  (near Limestone\nStorage Silo)",
+    "MCC2",
+    "25-F-F / 0.75 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AN102",
+    "DE Fan Motor (DE-3B) (near Limestone Storage Silo)",
+    "MCC2",
+    "10-F-A / 75 (KW / KVA)"
+  ],
+  [
+    "00HTJ62AB202",
+    "Rotary Airlock Valve (RAV-3B) Feeder (near Limestone\nStorage Silo)",
+    "MCC2",
+    "6-R-J / 0.75 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AN101",
+    "DE Fan Motor (DE-4A) (Near Limestone Day Silo)",
+    "MCC2",
+    "19-R-E / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AB201",
+    "Rotary Airlock Valve (RAV-4A) Feeder (Near Limestone\nDay Silo)",
+    "MCC2",
+    "26-F-E / 0.55 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AN102",
+    "DE Fan Motor (DE-4B) (Near Limestone Day Silo)",
+    "MCC2",
+    "10-R-B / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTJ63AB202",
+    "Rotary Airlock Valve (RAV-4B) Feeder (Near Limestone\nDay Silo)",
+    "MCC2",
+    "11-R-D / 0.55 (KW / KVA)"
+  ],
+  [
+    "",
+    "DE Fan Motor (DE-5) (At Gypsum Area)",
+    "MCC2",
+    "6-R-C / 11 (KW / KVA)"
+  ],
+  [
+    "",
+    "Rotary Airlock Valve (RAV-5) Feeder (At Gypsum Area)",
+    "MCC2",
+    "8-R-D / 0.75 (KW / KVA)"
+  ],
+  [
+    "00HTP10AF001",
+    "Conveyor - GC- 1A Motor (Gypsum Storage House\nTop)",
+    "MCC2",
+    "22-F-F / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTP20AF001",
+    "Conveyor - GC- 1B Motor (Gypsum Storage House Top)",
+    "MCC2",
+    "4-F-E / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTP60AF001A",
+    "Travelling Tippler- 1 LCP TT-1A (Gypsum Storage\nHouse Top)",
+    "MCC2",
+    "26-R-I / 11.84 (KW / KVA)"
+  ],
+  [
+    "00HTP60AF001B",
+    "Travelling Tippler- 2 LCP TT-1B (Gypsum Storage\nHouse Top)",
+    "MCC2",
+    "10-R-F / 11.84 (KW / KVA)"
+  ],
+  [
+    "",
+    "Service Water Pump-1 Motor",
+    "MCC2",
+    "7-F-H / 22 (KW / KVA)"
+  ],
+  [
+    "",
+    "Service Water Pump-2 Motor",
+    "MCC2",
+    "27-F-B / 22 (KW / KVA)"
+  ],
+  [
+    "",
+    "Filtrate  Water Tank Agitator Hoist",
+    "MCC2",
+    "11-F-F / 3.7 (KW / KVA)"
+  ],
+  [
+    "",
+    "Sump Pump LCP 1",
+    "MCC2",
+    "11-F-D / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "Sump Pump LCP 2",
+    "MCC2",
+    "19-R-C / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "Hoist PDB at Crusher House",
+    "MCC2",
+    "25-F-B / 38 (KW / KVA)"
+  ],
+  [
+    "",
+    "Electrical Hoist 2T (EH-9) (at Gypsum Shed)",
+    "MCC2",
+    "7-F-C / 2.2 (KW / KVA)"
+  ],
+  [
+    "",
+    "Electrical Hoist 1T (EH-10) (at Gypsum Shed)",
+    "MCC2",
+    "23-R-D / 1.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Electrical Hoist 1T (EH-15) (at DE-5)",
+    "MCC2",
+    "20-R-D / 1.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "EMDB-3 240VAC SOURCE-1",
+    "MCC2",
+    "5-F-A(6A) / - (KW / KVA)"
+  ],
+  [
+    "",
+    "Space heater for NSPBD MCC-2 Incomer-1",
+    "MCC2",
+    "21-F-A(6A) / - (KW / KVA)"
+  ],
+  [
+    "",
+    "Space heater for NSPBD MCC-2 Incomer-2",
+    "MCC2",
+    "5-F-A(6A) / - (KW / KVA)"
+  ],
+  [
+    "",
+    "Space heater for NSPBD MCC-2 Incomer-3",
+    "MCC1",
+    "21-F-A(6A) / - (KW / KVA)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/0.433 kV TRF # 4 MCC-\n2 Incomer",
+    "MCC2",
+    "5-F-A(6A) / - (KW / KVA)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/0.433 kV TRF # 5 MCC-\n2 Incomer",
+    "MCC2",
+    "21-F-A(6A) / - (KW / KVA)"
+  ],
+  [
+    "",
+    "Supply to Marshalling Box of 11/0.433 kV TRF # 6 MCC-\n2 Incomer",
+    "MCC2",
+    "21-F-A(6A) / - (KW / KVA)"
+  ],
+  [
+    "",
+    "ELSDB @ ECR-2",
+    "MCC2-240VAC BUS-A\n(EXTERNAL SOURCE)",
+    ""
+  ],
+  [
+    "",
+    "ELSDB @ ECR-2",
+    "MCC2-240VAC BUS-B\n(EXTERNAL SOURCE)",
+    ""
+  ],
+  [
+    "00BFA20GS001-Q01",
+    "MCC-2 Incomer -1 from transformer 1",
+    "MCC2",
+    "5-F-B / - (KW / KVA)"
+  ],
+  [
+    "00BFA20GS001-Q02",
+    "MCC-2 Incomer -2 from common transformer",
+    "MCC2",
+    "9-F-B / - (KW / KVA)"
+  ],
+  [
+    "00BFA20GS001-Q03",
+    "MCC-2 Incomer -3 from common transformer",
+    "MCC2",
+    "17-F-B / - (KW / KVA)"
+  ],
+  [
+    "00BFA20GS001-Q04",
+    "MCC-2 Incomer -4 from transformer 3",
+    "MCC2",
+    "21-F-B / - (KW / KVA)"
+  ],
+  [
+    "00HTK21AM001",
+    "Mill Separator Tank - 1 Agitator Motor",
+    "EMDB3",
+    "2-R-E / 1.5 (KW / KVA)"
+  ],
+  [
+    "00HTK22AM001",
+    "Mill Separator Tank - 2 Agitator Motor",
+    "EMDB3",
+    "2-R-K / 1.5 (KW / KVA)"
+  ],
+  [
+    "00HTK35AM001",
+    "Limestone Slurry Transfer Tank-1 Agitator Motor",
+    "EMDB3",
+    "2-R-C / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTK35AM002",
+    "Limestone Slurry Transfer Tank-2 Agitator Motor",
+    "EMDB3",
+    "1-R-C / 7.5 (KW / KVA)"
+  ],
+  [
+    "00HTK21GH001",
+    "LCP - Ball Mill Lubrication System - 1",
+    "EMDB3",
+    "1-R-H / 18.5 (KW / KVA)"
+  ],
+  [
+    "00HTK22GH001",
+    "LCP - Ball Mill Lubrication System - 2",
+    "EMDB3",
+    "2-R-I / 18.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "Ball Mill Building Elevator (passenger cum goods)",
+    "EMDB3",
+    "1-R-G / 20 (KW / KVA)"
+  ],
+  [
+    "",
+    "Emergency Light Distribution Boards (ELDB) Incomer-1",
+    "EMDB3",
+    "1-R-B / 35 (KW / KVA)"
+  ],
+  [
+    "",
+    "Passenger-cum-goods Elevator (Crusher House) (EL-1)",
+    "EMDB3",
+    "1-R-D / 7.5 (KW / KVA)"
+  ],
+  [
+    "",
+    "24VDC Battery Charger FCBC-2A Feeder-4",
+    "EMDB3",
+    "1-R-F / 15 (KW / KVA)"
+  ],
+  [
+    "",
+    "220V DC CHARGER",
+    "220V DCDB",
+    "1FC"
+  ],
+  [
+    "",
+    "220V DC CHARGER",
+    "220V DCDB",
+    "3FC"
+  ],
+  [
+    "",
+    "DC LDB-1 AT ECR-1",
+    "220V DCDB",
+    "1RC"
+  ],
+  [
+    "",
+    "220V DCFB-1 INCOMER",
+    "220V DCDB",
+    "1RA"
+  ],
+  [
+    "",
+    "220V DCFB-2 INCOMER",
+    "220V DCDB",
+    "2RA"
+  ],
+  [
+    "",
+    "220V DC BATTERY RACK-1",
+    "220V DCDB",
+    "1FB"
+  ],
+  [
+    "",
+    "220V DC BATTERY RACK-2",
+    "220V DCDB",
+    "3FB"
+  ],
+  [
+    "",
+    "DG PANEL",
+    "220V DCDB",
+    "2RC"
+  ],
+  [
+    "",
+    "EMDB-1 220V DC BUS SOURCE-1",
+    "220V DCDB",
+    "1RB"
+  ],
+  [
+    "",
+    "EMDB-1 220V DC BUS SOURCE-2",
+    "220V DCDB",
+    "3RB"
+  ],
+  [
+    "",
+    "EMDB-2 220V DC BUS SOURCE-1",
+    "220V DCDB",
+    "1RD"
+  ],
+  [
+    "",
+    "EMDB-2 220V DC BUS SOURCE-2",
+    "220V DCDB",
+    "3RD"
+  ],
+  [
+    "",
+    "EMSWGR 220V DC BUS SOURCE-1",
+    "220V DCDB",
+    "1RE"
+  ],
+  [
+    "",
+    "EMSWGR 220V DC BUS SOURCE-2",
+    "220V DCDB",
+    "3RE"
+  ],
+  [
+    "",
+    "MCC-1 220V DC BUS SOURCE-1",
+    "220V DCDB",
+    "1RF"
+  ],
+  [
+    "",
+    "MCC-1 220V DC BUS SOURCE-2",
+    "220V DCDB",
+    "3RF"
+  ],
+  [
+    "",
+    "11KV SWGR INCOMER-1 220V DC BUS SOURCE-1",
+    "220V DCDB",
+    "1RG"
+  ],
+  [
+    "",
+    "11KV SWGR INCOMER-2 220V DC BUS SOURCE-2",
+    "220V DCDB",
+    "3RG"
+  ],
+  [
+    "",
+    "3.3KV SWGR INCOMER-1 220V DC BUS SOURCE-1",
+    "220V DCDB",
+    "1RH"
+  ],
+  [
+    "",
+    "3.3KV SWGR INCOMER-2 220V DC BUS SOURCE-2",
+    "220V DCDB",
+    "3RH"
+  ],
+  [
+    "",
+    "DC LDB-2 AT ECR-2",
+    "220V DCFB",
+    "2"
+  ],
+  [
+    "",
+    "MCC-2 220V DC BUS SOURCE-1",
+    "220V DCFB",
+    "3"
+  ],
+  [
+    "",
+    "MCC-2 220V DC BUS SOURCE-2",
+    "220V DCFB",
+    "3"
   ]
-] ;
+];
+
